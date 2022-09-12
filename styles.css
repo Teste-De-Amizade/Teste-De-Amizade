@@ -30,6 +30,7 @@ body{
     color: floralwhite;
     font-size: calc(20px - 0.5vh);
     font-family: Merriweather;
+    border: solid 2px rgb(0, 0, 0);
 }
 
 #tit{

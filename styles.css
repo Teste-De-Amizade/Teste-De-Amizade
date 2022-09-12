@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -23,14 +23,14 @@ body{
 }
 
 #start{
-    padding: calc(8px - 0.1vw);
+    padding: calc(10px - 0.1vw);
     width: calc(120px - 0.1vw);
-    margin-top: calc(25px - 0.1vw);;
+    margin-top: 30vh;
     background-color: rgb(18, 18, 18);
     color: floralwhite;
-    font-size: calc(20px - 0.5vh);
-    font-family: Merriweather;
-    border: solid 5px rgb(82, 82, 82);
+    font-size: calc(18px - 0.5vh);
+    font-family: Montserrat;
+    border-bottom: solid 2px rgb(162, 162, 162);
     border-style: groove;
 }
 

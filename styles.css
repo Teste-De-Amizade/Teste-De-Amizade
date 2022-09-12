@@ -23,14 +23,15 @@ body{
 }
 
 #start{
-    padding: calc(10px - 0.1vw);
+    padding: calc(8px - 0.1vw);
     width: calc(120px - 0.1vw);
     margin-top: calc(25px - 0.1vw);;
     background-color: rgb(18, 18, 18);
     color: floralwhite;
     font-size: calc(20px - 0.5vh);
     font-family: Merriweather;
-    border: solid 2px rgb(0, 0, 0);
+    border: solid 5px rgb(82, 82, 82);
+    border-style: groove;
 }
 
 #tit{
@@ -38,10 +39,6 @@ body{
 }
 mark{
     background-color: rgba(255, 255, 255, 1);
-}
-#start:hover{
-    background-color: rgb(255, 255, 255);
-    color: black;
 }
 #start:active{
     color: rgb(255, 255, 255);
@@ -53,5 +50,5 @@ mark{
     width: 100%;
     background-image: url('ahegao.gif');
     background-size: contain;
-    background-repeat: repeat-x;
+    background-repeat: repeat;
 }
